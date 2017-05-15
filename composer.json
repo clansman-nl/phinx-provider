@@ -1,0 +1,14 @@
+{
+    "name": "basebuilder/phinx-provider",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Basebuilder\\PhinxProvider\\": "src/"
+        }
+    },
+    "require": {
+        "robmorgan/phinx" : "0.*",
+        "silex/silex" : "1.*",
+        "symfony/console": "3.*"
+    }
+}
